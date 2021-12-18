@@ -7,7 +7,6 @@
 
 body{
     overflow-x: hidden;
-    user-select: none;
 }
 
 #container{
@@ -40,6 +39,7 @@ body{
     text-align: justify;
     font-size: 1rem;
     line-height: 160%;
+    user-select: none;
 }
 
 #box01{
@@ -331,6 +331,7 @@ ul,li{list-style:none;}
     left: 50%;
     transform: translateX(-50%);
     align-items: center;
+    user-select: none;
 }
 
 #box05{
